@@ -1,0 +1,202 @@
+
+   
+
+
+p {
+font-family:cursive;
+
+font-size: 28px ;
+
+color: #000;
+    
+    
+} /* all my text size customizaton */
+
+
+
+
+.good {
+	height: 240px;
+float:left; /* float is so the gif can tuck right on the edge of the page */
+
+}
+
+
+
+
+
+Body.home {
+
+background:url("tobias-keller-99139.jpg") no-repeat center center fixed; /* this is used so the background image dosent repeat itself */
+
+background-size:cover;    
+} 
+
+
+
+
+
+Body.aboutme {
+
+background:url("jean-pierre-brungs-105662%20(1).jpg") no-repeat center center fixed; /* this is used so the background image dosent repeat itself */
+
+background-size:cover;    
+
+font-family: cursive;
+	font-size: 55px;
+	color:#000000;
+
+}
+
+
+                                  /* the bodies are so that im able to customise the backgrounds on each page */
+
+
+Body.skills {
+
+background:url("tobias-keller-99134.jpg") no-repeat center center fixed; /* this is used so the background image dosent repeat itself */
+
+background-size:cover;     
+
+font-family: cursive;
+	font-size: 55px;
+	color:#000000;
+
+}
+
+
+
+
+
+Body.achievements {
+
+background:url("Homebackground.jpg") no-repeat center center fixed; /* this is used so the background image dosent repeat itself */
+
+background-size:cover;  
+	
+	
+	font-family: cursive;
+	font-size: 55px;
+	color:#000000;
+	
+}
+
+
+
+.thing{
+    position:absolute;
+    top:161px;
+	left:21px;
+
+	
+
+  
+    
+} /* div name for hover effect */
+
+
+.pic {
+ height:auto;
+    opacity: 1;
+	display: block;
+	width:100%;
+	height: auto;                    /* make pic fade */
+	transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+ .middle {
+    
+    transition: .5s ease;
+    opacity:0 ;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate( -50%, -50%);         
+-ms-transform: translate( -50%, -50%)
+   
+}    /* postioning of the words */ 
+
+
+
+
+.thing:hover .pic{
+    opacity: 0.5;
+}
+                                        /* Hover effects to make text come front and pic fade back */
+.thing:hover .middle{
+    opacity:1;
+}
+
+
+
+.text{
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+
+.dude {
+    position: absolute;
+    bottom:1%;
+    right: 1%;
+    color:darkgray;
+    font-size: 17px;
+    font-family:sans-serif;
+    
+    
+        }   /* all my photocredits */
+
+
+
+
+
+
+
+
+ul{
+
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+
+
+
+li{
+                display: inline;
+                color:aliceblue;
+                float:left;
+                padding: 20px 20px;
+                
+               }
+                              /* ul, li, li a, li a:hover is all for my anv bar */
+
+
+
+li a {
+                
+                   color:cornsilk;
+                   text-decoration: none;
+                   font-size: 55px;
+                   font-family: fantasy;
+                   color:cornflowerblue ;
+                   float:left;
+                   padding: 10px  50px;
+                
+               }
+               
+
+
+
+li a:hover {
+                   background-color:aliceblue;
+}
+
+
+
